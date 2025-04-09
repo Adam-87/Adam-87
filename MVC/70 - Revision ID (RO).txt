@@ -1,0 +1,2 @@
+7:0 - Revision ID (RO)
+This 8-bit value is assigned by the function manufacturer and identifies the revision number of the function. If the vendor has supplied a revision-specific driver, this is handy in ensuring that the correct driver is loaded by the OS.

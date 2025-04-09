@@ -1,0 +1,2 @@
+7:0 - Max Latency (RO)
+Reserved in PCI Express and should be 0. In PCI, this value indicates how often the master would like to have access to the bus (i.e., receive its GNT# from the arbiter). The value hardwired into this register is used by the configuration software to determine the priority level (and possible the arbitration scheme the arbiter uses) the bus arbiter assigns to the master (assuming that the arbiter is programmable). Please note that if the arbiter is not programmable, the configuration software shouldnt waste any time reading this register.

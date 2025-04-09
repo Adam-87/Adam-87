@@ -1,0 +1,2 @@
+31:0 - CardBus CIS Pointer (RO)
+This optional register is implemented by devices that share silicon between CardBus and a PCI or PCI Express function. This field points to the Card Information Structure (CIS) the CardBus card.

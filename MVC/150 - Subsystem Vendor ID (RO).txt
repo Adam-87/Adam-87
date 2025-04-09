@@ -1,0 +1,2 @@
+15:0 - Subsystem Vendor ID (RO)
+This field, along with the Subsystem ID field, are used to distinguish cards from different manufacturers even though they may be using the same PCI or PCIe controller (and thus have the same VendorID and DeviceID). A value of zero in these registers indicates there isn't a Subsystem Vendor ID and Subsystem ID associated with the function.

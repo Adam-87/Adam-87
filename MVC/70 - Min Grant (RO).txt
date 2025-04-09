@@ -1,0 +1,2 @@
+7:0 - Min Grant (RO)
+Reserved in PCI Express and should be 0. In PCI, the value hardwired into this register indicates how long the master would like to retain PCI bus ownership (in order to attain good performance) whenever it initiates a transaction. The value indicates how long a burst period the device needs (in increments of 1/4 of a microsecond, or 250ns). A value of zero indicates the device has no stringent requirement in this area.

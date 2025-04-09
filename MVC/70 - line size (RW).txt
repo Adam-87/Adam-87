@@ -1,0 +1,2 @@
+7:0 - CacheLine Size (RW)
+This field specifies the system cache line size in DWORD increments. It is implemented in PCI Express as a read-write field for legacy compatibility purposes but has no impact on any PCI Express device functionality.

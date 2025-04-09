@@ -1,0 +1,9 @@
+7:0 - Interrupt Pin (RO)
+This register defines which of the four PCI interrupt request pins, INTA#-through-INTD#, a PCI function is connected to.
+- 00h	  =  	Does not generate interrupts
+- 01h	  =  	INTA#
+- 02h	  =  	INTB#
+- 03h	  =  	INTC#
+- 04h	  =  	INTD#
+- 05h:FFh	  =  	Reserved
+

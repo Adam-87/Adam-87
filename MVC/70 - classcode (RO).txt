@@ -1,0 +1,26 @@
+7:0 - Programming Interface (RO)
+For some functions, the combination of the Class Code and Sub Class Code is sufficient to fully-define its level of register set compatibility. The register set layout for some function types, however, can vary from one implementation to another. As an example, from a programming interface perspective there are a number of flavors of IDE mass storage controllers, so it's not sufficient to identify yourself as an IDE mass storage controller. The Programming Interface byte value provides the final level of granularity that identifies the exact register set layout of the function.
+15:8 - Sub-class Code (RO)
+Defines the sub-class of this function. The meaning of the encodings vary based on the Base Class Code value.
+23:16 - Base Class Code (RO)
+Defines the base class of this function.
+- 00h	  =  	Device was built before Class Code definitions were finalized
+- 01h	  =  	Mass Storage Controller
+- 02h	  =  	Network Controller
+- 03h	  =  	Display Controller
+- 04h	  =  	Multimedia Device
+- 05h	  =  	Memory Controller
+- 06h	  =  	Bridge Device
+- 07h	  =  	Simple Communication Controller
+- 08h	  =  	Base System Peripheral
+- 09h	  =  	Input Device
+- 0Ah	  =  	Docking Station
+- 0Bh	  =  	Processor
+- 0Ch	  =  	Serial Bus Controller
+- 0Dh	  =  	Wireless Controller
+- 0Eh	  =  	Intelligent IO Controller
+- 0Fh	  =  	Satellite Communication Controller
+- 10h	  =  	Encryption/Decryption Controller
+- 11h	  =  	Data Acquisition and Signal Processing Controller
+- 12h	  =  	Processing Accelerator
+- FFh	  =  	Device does not fit any defined class

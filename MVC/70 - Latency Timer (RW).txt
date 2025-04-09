@@ -1,0 +1,2 @@
+7:0 - Latency Timer (RW)
+Reserved in PCI Express and should be 0. In PCI, the Latency Timer defines the minimum amount of time, in PCI clock cycles, that the bus master can retain ownership of the bus whenever it initiates a new transaction.

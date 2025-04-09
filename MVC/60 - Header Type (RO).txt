@@ -1,0 +1,9 @@
+6:0 - Header Type (RO)
+The Header Type field defines the format of DWORDs 4-15 of the function's configuration header. The defined header types are listed below:
+- 0000000b	  =  	Non-bridge function (the encoding for "Type 0" headers)
+- 0000001b	  =  	PCI-to-PCI Bridge
+- 0000010b	  =  	CardBus Bridge
+7 - Multi-Function Device (RO)
+Indicates whether there are multiple functions associated with this device. Enumeration software checks this bit on function 0 of the device to determine if it needs to search for other functions on this device.
+- 0b	  =  	NOT a multi-function device
+- 1b	  =  	Multi-function device
